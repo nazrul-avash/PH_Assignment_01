@@ -120,3 +120,92 @@ h1 span{
     background: none;
     border: 1px solid #FFFFFF;
 }
+ #notes{
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    
+}
+
+#notes .note-heading h1{
+    padding-top: 40px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #001931;
+    
+}
+#notes .note-heading p{
+    text-align: center;
+    line-height: 20px;
+    color:#627382;
+    font-weight: 400;
+    margin-bottom: 44px;
+}
+.note-box{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.note-box .img-wrapper{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.note-box .note-card h3{
+    font-size: 24px;
+    font-weight: semi bold;
+    color: #001931;
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 600;
+
+}
+.note-box .note-card p{
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+.note-box .note-card{
+    padding-top: 70px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 0px;
+}
+#solutions{
+    max-width: 1360px;
+    width: 85%;
+    margin-bottom: 120px;
+    margin: 0 auto;
+    display: flex;
+    gap:60px;
+
+}
+.solution-desc h4{
+    padding-top: 102px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#30B868;
+    margin-bottom: 16px;
+
+
+}
+.solution-desc p{
+    padding-top: 102px;
+    line-height: 20px;
+    color:#30B868;
+    margin-bottom: 40px;
+    
+
+}
