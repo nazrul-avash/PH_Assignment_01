@@ -185,10 +185,11 @@ h1 span{
 #solutions{
     max-width: 1360px;
     width: 85%;
-    margin-bottom: 120px;
+    
     margin: 0 auto;
     display: flex;
     gap:60px;
+    margin-bottom: 120px;
 
 }
 .solution-desc h4{
@@ -201,11 +202,78 @@ h1 span{
 
 
 }
+.solution-desc h2{
+    
+    font-size: 48px;
+    font-weight: bold;
+    color:#001931;
+    margin-bottom: 16px;
+
+
+}
 .solution-desc p{
-    padding-top: 102px;
+    
     line-height: 20px;
-    color:#30B868;
-    margin-bottom: 40px;
+    color:#627382;
+    margin-bottom: 30px;
+    text-align: left;
+    padding-right: 130px;
     
 
+}
+.solution-desc ul li{
+    
+    list-style: none; 
+    display: flex;
+    text-align: center;
+    gap: 5px;   
+
+}
+#think{
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    margin-bottom: 120px;
+    padding-bottom: 80px;
+
+}
+#think h2{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+
+}
+#think p{
+    
+    text-align: center;
+    color:#627382;
+    margin-bottom: 16px;
+    
+}
+#think button{
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 5px;
+    
+    
+    
+}
+footer{
+    background-color: #001931;
+    
+}
+footer .logo-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 120px;
 }
