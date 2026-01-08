@@ -1,0 +1,122 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+body{
+   background-color:#FFFFFF;
+   font-weight: 400;
+   font-size: 16px;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap:345px;
+    padding: 34px 120px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    
+}
+nav ul li{
+    list-style: none;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+.btn{
+  background-color: #30B868;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight:semi bold;
+  cursor: pointer;
+}
+#banner{
+    background-image: url('./assets/hero-bg.png');
+    
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 1600/674;
+    background-repeat: no-repeat;
+}
+.banner-content{
+    max-width: 770px;
+    width: 48%;
+    margin: 0 auto;
+    padding-top: 116px;
+    padding-bottom: 180px;
+    
+}
+.banner-content .access-info h4{
+    background-color: white;
+    color:#30B868;
+    width: fit-content;
+    border-radius: 15px;
+    padding:  4px 8px;;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    
+}
+.banner-content .main-info h1{
+    color: #FFFFFF;
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+h1 span{
+    display: block;
+}
+.banner-content .main-info span{
+    color:#30B868;
+    
+}
+.banner-content .main-info p{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: regular;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.banner-content .buttons{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.banner-content .buttons .btn{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: semi bold;
+
+}
+.buttons .btn2 {
+    background: none;
+    border: 1px solid #FFFFFF;
+}
