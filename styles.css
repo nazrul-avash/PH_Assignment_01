@@ -73,14 +73,15 @@ nav ul li a{
     color:#30B868;
     width: fit-content;
     border-radius: 15px;
-    padding:  4px 8px;;
+    padding:  6px 10px;;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     align-items: center;
     display: flex;
     gap: 4px;
     margin: 0 auto;
     margin-bottom: 16px;
+   
     
 }
 .banner-content .main-info h1{
@@ -99,12 +100,14 @@ h1 span{
     
 }
 .banner-content .main-info p{
+    max-width: 630px;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
-    font-weight: regular;
+    font-weight: 400;
     text-align: center;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
+    margin: 0 auto;
 }
 .banner-content .buttons{
     display: flex;
@@ -176,19 +179,21 @@ h1 span{
     text-align: center;
     margin-bottom: 16px;
     font-weight: 600;
+    padding: 0px 24px;
 
 }
 .note-box .note-card p{
     font-size: 16px;
     color: #627382;
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 48px;
+    padding: 0px 24px;
 
 }
 .note-box .note-card{
     padding-top: 70px;
     border-radius: 6px;
-    box-shadow: 0px 0px 4px 0px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 #solutions{
     max-width: 1360px;
@@ -226,6 +231,7 @@ h1 span{
     margin-bottom: 30px;
     text-align: left;
     padding-right: 130px;
+    max-width: 600px;
     
 
 }
@@ -234,7 +240,8 @@ h1 span{
     list-style: none; 
     display: flex;
     text-align: center;
-    gap: 5px;   
+    gap: 5px;
+    margin-bottom: 16px;   
 
 }
 #think{
@@ -254,18 +261,24 @@ h1 span{
     margin-bottom: 16px;
 
 }
-#think p{
+#think .think-desc2{
     
     text-align: center;
     color:#627382;
-    margin-bottom: 16px;
+    padding-bottom: 16px;
+    margin-top: 16px;
     
+}
+#think .think-desc{
+    
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 16px;
 }
 #think button{
     display: flex;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 16px;
     margin: 0 auto;
     align-items: center;
     gap: 5px;
@@ -305,6 +318,12 @@ footer .footer-footer .copyright{
 }
 .footer-content h3{
     color: #FFFFFF;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
+    line-height: 28px;
+    font-weight: 500;
 
+}
+.footer-content .social-icons a i {
+    color: #ffffff;
+    
 }
