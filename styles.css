@@ -277,3 +277,26 @@ footer .logo-content{
     margin: 0 auto;
     padding-top: 120px;
 }
+footer .footer-footer{
+    
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+footer hr{
+    border: 1px solid #627382;
+    margin-bottom: 30px;
+}
+footer .footer-footer .copyright{
+    color: #FFFFFF;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footer-content h3{
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+}
