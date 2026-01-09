@@ -1,4 +1,4 @@
-
+/* This part defines common styles for the assignment page */
 *{
     margin: 0px;
     padding: 0px;
@@ -17,6 +17,7 @@ button:hover{
     color: #FFFFFF;
     background-color: #F95555;
 }
+/* Styles for navigation bar*/
 nav{
     display: flex;
     justify-content: space-evenly;
@@ -52,6 +53,7 @@ nav ul li a{
   font-weight:semi bold;
   cursor: pointer;
 }
+/* Styles for banner*/
 #banner{
     background-image: url('./assets/hero-bg.png');
     
@@ -131,6 +133,7 @@ h1 span{
     color: #FFFFFF;
     background-color: #F95555;
 }
+/* Styles for note section*/
  #notes{
     max-width: 1360px;
     width: 85%;
@@ -195,6 +198,7 @@ h1 span{
     border-radius: 6px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
+/* Styles for solution section*/
 #solutions{
     max-width: 1360px;
     width: 85%;
@@ -244,6 +248,7 @@ h1 span{
     margin-bottom: 16px;   
 
 }
+/* Styles for think section */
 #think{
     max-width: 1360px;
     width: 85%;
@@ -273,6 +278,7 @@ h1 span{
     max-width: 550px;
     margin: 0 auto;
     margin-bottom: 16px;
+    text-align: center;
 }
 #think button{
     display: flex;
@@ -285,6 +291,7 @@ h1 span{
     
     
 }
+/* Styles for footer*/
 footer{
     background-color: #001931;
     
