@@ -13,6 +13,10 @@ body{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+button:hover{
+    color: #FFFFFF;
+    background-color: #F95555;
+}
 nav{
     display: flex;
     justify-content: space-evenly;
@@ -119,6 +123,10 @@ h1 span{
 .buttons .btn2 {
     background: none;
     border: 1px solid #FFFFFF;
+}
+.buttons .btn2:hover {
+    color: #FFFFFF;
+    background-color: #F95555;
 }
  #notes{
     max-width: 1360px;
